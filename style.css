@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Poppins:wght@400;500;700;900&display=swap');
+
+:root {
+    --orange-background: #EC682C;
+    --blue-background: #4B40C5;
+    --light-red-background: #DF6951;
+    --yellow-background: #F0BB1F;
+    --red-background: #F15A2B;
+    --gradient1-background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    --gradient2-background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+    --subscribe-background: #DFD7F9;
+    --backgroun-headerBG: asset/images/wallpaper.png;
+}
+
+/* font font-family: 'Peralta', serif; */
+
+#logo{
+    font-family: 'Peralta', serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.list_col{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+}
